@@ -1,0 +1,11 @@
+[package]
+name = "RBear"
+version = "1.0.0"
+edition = "2025"
+authors = ["Nexriel"]
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
+scroll = "0.12"
+chrono = "0.4"
